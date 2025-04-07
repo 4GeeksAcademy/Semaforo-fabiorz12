@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import TrafficLight from './components/App';
+
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,7 +10,7 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import TrafficLight from './components/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
